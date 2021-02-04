@@ -32,9 +32,9 @@ int main()
 	student4 = Student("Jenny", "949-111-0000", 11111, 33, 'F', "Senior",
 			            2.2);
 
-	 // OUTPUT - print header to I/O screen
-	PrintHeaderConsole(PROGRAMMER,ASSIGNMENT_NAME, ASSIGNMENT_TYPE,
-		 			   ASSIGNMENT_NUM);
+	 // OUTPUT - Prints generic header to output
+	//PrintHeaderConsole(PROGRAMMER,ASSIGNMENT_NAME, ASSIGNMENT_TYPE,
+	//	 			   ASSIGNMENT_NUM);
 
 	// formatting
 	cout << setfill('*') << setw(75) << ' '	<< setfill(' ')  << endl;
