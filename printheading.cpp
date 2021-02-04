@@ -1,10 +1,5 @@
 /*************************************************************************
  * AUTHOR'S     : Jeffrey Roe
- * STUDENT ID   : 790342
- * Assignment #7: Friend Functions and Overloading
- * CLASS        : CS1C
- * SECTION 	    : MW 5:30 - 8:30
- * DUE DATE     : 10/7/13
  * ***********************************************************************/
 #include "Header.h"
 
@@ -27,7 +22,8 @@ void PrintHeaderConsole(string  programmer,    //OUT   - programmer name
                         char    asType,        //OUT   - lab or assignment
                         int     asNum)        //OUT   - assignment number
 {
-	const char CLASS[5]    =  "CS1C";
+	// Header used for all personal projects or school projects
+	/*const char CLASS[5]    =  "CS1C";
 	const char SECTION[25] = "MW: 5:30p - 8:30p";
 
 	cout <<  left;
@@ -50,4 +46,4 @@ void PrintHeaderConsole(string  programmer,    //OUT   - programmer name
 	cout << setfill('*') << setw(75) << '*' << setfill(' ');
 	cout << endl << endl;
     cout << right;
-}
+}*
