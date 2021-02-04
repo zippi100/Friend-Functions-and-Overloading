@@ -1,0 +1,143 @@
+***************************************************************************
+*  PROGRAMMED BY : Jeffrey Roe
+*  CLASS         : CS1C
+*  SECTION       : MW: 5:30p - 8:30p
+*  ASSIGMENT #7  : Friend Functions and Overloading
+***************************************************************************
+
+Description:
+This program test to see if two student objects have the same id numbers
+or not, by using friend functions. One the test without overloading ==
+and one friend function that overloads ==. Then this program test to
+out a member function to add an integer to the age of student, then a
+test to add a constant to student ages with the + overloading
+
+
+************************************************************************** 
+ Printing beginning info 
+************************************************************************** 
+
+Name: Joe
+Phone Number: 949-000-0000
+Id: 78909
+Age: 22
+Gender: M
+Class Rank: Freshman
+Gpa: 4.00
+
+
+Name: Kelly
+Phone Number: 790-000-0000
+Id: 78909
+Age: 20
+Gender: F
+Class Rank: Sophomore
+Gpa: 3.10
+
+
+Name: Bob
+Phone Number: 949-555-5555
+Id: 11111
+Age: 56
+Gender: M
+Class Rank: Junior
+Gpa: 2.30
+
+
+Name: Jenny
+Phone Number: 949-111-0000
+Id: 11111
+Age: 33
+Gender: F
+Class Rank: Senior
+Gpa: 2.20
+
+
+************************************************************************** 
+Using the friend function without overloading operators!!
+************************************************************************** 
+
+Joe and Kelly have the same id number
+
+Bob and Jenny have the same id number
+
+************************************************************************** 
+Using the friend function with overloading == Operator!
+************************************************************************** 
+
+Joe and Kelly have the same id number
+
+
+Bob and Jenny have the same id number
+
+
+************************************************************************** 
+Adding an integer that adds 10 years to student ages
+************************************************************************** 
+
+Joe is now 32 years old
+Kelly is now 30 years old
+Bob is now 66 years old
+Jenny is now 43 years old
+
+
+************************************************************************** 
+Adding a constant of 1 years using overloading + to student ages
+************************************************************************** 
+
+Joe is now 33 years old
+Kelly is now 31 years old
+Bob is now 67 years old
+Jenny is now 44 years old
+
+
+************************************************************************** 
+ Age difference 
+************************************************************************** 
+
+Joe is now 11 years older
+Kelly is now 11 years older
+Bob is now 11 years older
+Jenny is now 11 years older
+
+
+************************************************************************** 
+ Printing final results info 
+************************************************************************** 
+
+Name: Joe
+Phone Number: 949-000-0000
+Id: 78909
+Age: 33
+Gender: M
+Class Rank: Freshman
+Gpa: 4.00
+
+
+Name: Kelly
+Phone Number: 790-000-0000
+Id: 78909
+Age: 31
+Gender: F
+Class Rank: Sophomore
+Gpa: 3.10
+
+
+Name: Bob
+Phone Number: 949-555-5555
+Id: 11111
+Age: 67
+Gender: M
+Class Rank: Junior
+Gpa: 2.30
+
+
+Name: Jenny
+Phone Number: 949-111-0000
+Id: 11111
+Age: 44
+Gender: F
+Class Rank: Senior
+Gpa: 2.20
+
+
