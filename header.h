@@ -1,10 +1,5 @@
 /*************************************************************************
  * AUTHOR'S     : Jeffrey Roe
- * STUDENT ID   : 790342
- * Assignment #7: Friend Functions and Overloading
- * CLASS        : CS1C
- * SECTION 	    : MW 5:30 - 8:30
- * DUE DATE     : 10/7/13
  * ***********************************************************************/
 #ifndef HEADER_H_
 #define HEADER_H_
