@@ -20,10 +20,10 @@ using namespace std;
  * ASSIGNMENT_NAME : Title of the Assignment
  * PROGRAMMER 	   : Programmer's Name(s)
  * ***********************************************************************/
-const int      ASSIGNMENT_NUM  =  7;
+/*const int      ASSIGNMENT_NUM  =  7;
 const char     ASSIGNMENT_TYPE = 'a';
 const string   ASSIGNMENT_NAME = "Friend Functions and Overloading";
-const string   PROGRAMMER      = "Jeffrey Roe";
+const string   PROGRAMMER      = "Jeffrey Roe";*/
 
 /**************************************************************************
  *PrintHeader
@@ -33,10 +33,10 @@ const string   PROGRAMMER      = "Jeffrey Roe";
  * RETURNS -> nothing (outputs class header)
  *
  *************************************************************************/
-void PrintHeaderConsole(string  programmer,    //OUT   - programmer name
+/*void PrintHeaderConsole(string  programmer,    //OUT   - programmer name
                         string  asName,        //OUT   - assignment name
                         char    asType,        //OUT   - lab or assignment
-                        int     asNum);        //OUT   - assignment number
+                        int     asNum);        //OUT   - assignment number*/
 
 /**************************************************************************
  *GetStudentAge
